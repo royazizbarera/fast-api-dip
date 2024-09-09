@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Text to Image</title>
+</head>
+<body>
+    <h1>Add Text to Image</h1>
+    <form action="/add_text/" method="post" enctype="multipart/form-data">
+        <label for="file">Upload Image:</label>
+        <input type="file" name="file" required>
+        <br><br>
+        <label for="text">Enter Text:</label>
+        <input type="text" name="text" required>
+        <br><br>
+        <button type="submit">Add Text</button>
+    </form>
+</body>
+</html>
